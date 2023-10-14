@@ -1,0 +1,14 @@
+#logo{
+ animation:join 0.8s ease  0s both  ;
+ color:rgb(175, 110, 236)
+}
+@keyframes join{
+    from{
+        letter-spacing: 20px;
+        
+    }
+    to{
+        letter-spacing: 2px;
+    }
+    
+}

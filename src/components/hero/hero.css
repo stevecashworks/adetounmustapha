@@ -1,0 +1,16 @@
+#fadingText{
+    animation:fade 5s  both;
+    overflow-x:hidden;
+    display:flex;
+    transform-origin: left;
+    font-size:17px;
+}
+@keyframes fade{
+    from{
+        transform:scaleX(0)
+    }
+    to{
+        transform:scaleX(1)
+        
+    }
+}
